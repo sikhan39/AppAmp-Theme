@@ -1,0 +1,430 @@
+body,h1,h2,h3,h4,h5,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%
+}
+.navbar{
+    position:;
+    z-index: 9;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.own-header span{
+    background-color:rgb(73, 44, 199);
+    color: white;
+    display: inline-block;
+    height: 38px;
+    width: 32px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    top: 2px;
+}
+.own-menu{
+    font-size:18px;
+    font-weight:500;
+}
+
+.own-menu ul li a:hover{
+    color:rgb(75, 49, 190,1);
+}
+
+
+.slider-section{
+    background: url(./mbr-10.jpg) no-repeat center center;
+    padding:150px 0;
+    position: relative;
+    z-index:1;
+}
+.slider-section::after{
+    content:"";
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.slider-section .section-header h2{
+    font-size:47px;
+    font-weight:500;
+    position: relative;
+    top:-35px;
+}
+.section-header h4{
+    font-size: 25px;
+    font-weight:300;
+    position: relative;
+    top:-85px;
+}
+.slider-section .btn{
+    background-color: #5ba533;
+    font-size:20px;
+    font-weight: 600;
+}
+.slider-section .btn:hover{
+    color:rgb(75, 49, 190,1) ;
+    background-color: white;
+    transition: .5s;
+}
+
+.number-counter h1{
+    margin-top: 
+    25px;
+    font-size: 60px;
+    font-weight:500;
+    color: black;
+}
+.number-counter h5{
+    font-size: 20px;
+    font-weight:400;
+    color: gray;
+}
+.about-section{
+    background-color:#f7f9ff;
+   
+}
+
+.about-section h1{
+    margin-top:100px;
+    font-size:47px;
+    font-weight:500;
+    color:black;
+}
+.about-section p{
+    font-weight:400;
+    font-size:21px;
+    line-height: 2.2rem;
+    
+}
+
+.feature-header{
+    margin: 65px 0;
+}
+.feature-header h1{
+    font-size:48px;
+    color: black;
+    font-weight:400;
+    margin-bottom:35px;
+}
+.feature-header h3{
+    font-size: 25px;
+    color: gray;
+    font-weight:300;
+
+}
+.feature-item{
+    height:250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.4);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.left-img-sec{
+ width:38%;
+ overflow: hidden;
+}
+.right-txt-sec{
+    width: 62%;
+    padding: 20px;
+}
+.left-img-sec img{
+    height: 100%;
+    width:auto;
+    max-width: inherit;
+    position: relative;
+    position: relative;
+    left: -95px
+}
+.right-txt-sec h4{
+    color: black;
+    font-weight:600;
+    font-size: 21px;
+}
+.right-txt-sec p{
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+}
+.child img{
+   height: 100%;
+}
+.portfollio-section{
+    margin-top:120px;
+}
+.portfollio-header h1{
+    font-size: 45px;
+    color: black;
+    font-weight: 400;
+    margin-bottom:58px;
+}
+
+.portfollio-item a{
+  position: relative;
+  display: block;
+  
+}
+.portfollio-item a::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width:100%;
+    background-color:rgba(137, 43, 226, 0.4);
+    opacity:0;
+    visibility: hidden;
+    transition: .5s;
+}
+.portfollio-item a:hover::after{
+opacity:1;
+visibility: visible;     
+}
+.min-bgc{
+    background-color:#f7f9ff;
+}
+
+.pricing-table-section{
+    height: 350px;
+    width:200px;
+    padding-bottom: 50px;
+}
+.pricing-table-item h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+.pricing-table-item h5{
+    font-size: 23px;
+    padding-left:25px;
+    padding-top:15px;
+}
+
+.pricing-table-item ul{
+    list-style: none;
+}
+.pricing-table-item ul li{
+    font-size: 22px;
+    font-weight: 300;
+    color: gray;
+    margin-bottom: 5px;
+}
+.pricing-table-item ul li span{
+    color: #6278df;
+    width: 50px;
+    display:inline-block;
+}
+.pricing-table-btn{
+     color: blanchedalmond;
+     padding-bottom: 0px;
+
+}
+
+.feadbeek-section{
+    width:900px;
+    
+    
+}
+
+.feadbeek-header-content h4{
+    font-size: 27px;
+    color: gray;
+}
+.feadbeek-header-content h1{
+    font-size:42px;
+    color: black;
+    font-weight:500;
+}
+.feadbeek-header-content span{
+    font-size:75px;
+    color:rgba(128, 128, 128, 0.2);
+    
+}
+
+.feadbeek-user-img{
+    width: 220px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.feadbeek-user-img img{
+    width:77px;
+    margin-right:15px;
+}
+
+.feadbeek-h-img-content{
+    text-align: left;
+    position: relative;
+    top: 13px;
+   
+}
+
+.introduction-section{
+    background-color:#f7f9ff;
+    padding:30px;
+    padding-bottom:100px;
+
+}
+
+.introduction-section h1{
+    font-size:45px;
+    color: black;
+    font-weight:500;
+}
+
+.introduction-passage p{
+    font-size:18px;
+    font-weight:400;
+    margin-bottom:150px;
+}
+
+.introduction-content{
+    padding-left:30px;
+    padding-bottom:30;
+}
+
+.introduction-content span img{
+    width:150px;
+    height:auto;
+    position: relative;
+    top:-75px;
+}
+
+.introduction-content h2{
+    font-size: 22px;
+    position: relative;
+    top: -50px;
+    font-weight:600;
+    color: black;
+}
+
+.introduction-content h3{
+    font-size: 22px;
+    position: relative;
+    top: -50px;
+    font-weight:400;
+    color: black;
+}
+
+.introduction-content p{
+    font-size: 15px;
+    color: gray;
+    position: relative;
+    top: -40px;
+    font-weight:400;
+}
+
+.introduction-content .btn{
+    position: relative;
+    top:-40px;
+    border:none;
+    box-shadow:5px 3px 3px 0 rgba(0,0,0,0.6);
+}
+.contact-content{
+    width:250px;
+    margin:auto;
+}
+.email{
+    padding:16px;
+   
+}
+.form-control{
+    padding:19px;
+}
+.card{
+    border:none;
+}
+
+.contact-header p{
+     font-size: 20px;
+     color: gray;
+     font-weight: 300
+}
+.contact-header H2{
+    font-size: 45px;
+    color: black;
+    font-weight: 400;
+}
+.card h4{
+    color: black;
+    font-weight:500
+}
+ .last-btn{
+    color: white;
+    
+    font-weight:500;
+    background-color:rgb(75, 49, 190,1);
+    font-size:20px;
+    font-weight: 600;
+    padding:12px 18px;
+ }
+.last-btn:hover{
+    outline-color:rgb(75, 49, 190,1);
+    color:rgb(75, 49, 190,1) ;
+    background-color: white;
+    transition: .5s;
+}
+.footer-btn{
+  width:375px;
+  margin:auto;
+  border:3px #5ba533;
+}
+.footer-btn a{
+    color:#5ba533;
+    background-color:white;
+    border-color:#5ba533;
+    padding:15px 22px;
+   
+    font-size:22px;
+    font-weight: 500;
+}
+
+.footer-btn a:hover{
+    color: white;
+    background-color:#5ba533;
+    transition:.5s;
+}
+.footer-btn .btn-2 a{
+    color: white;
+    background-color:#5ba533;
+    border: 3px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:22px;
+    font-weight: 500;
+}
+.footer-btn .btn-2 a:hover{
+    background:black;
+    transition:.5s;
+}
+
+.fotter-section h4{
+    font-size:25px;
+    color: gray;
+    font-weight:400;
+}
+.fotter-section h1{
+    width:800px;
+    margin:auto;
+    font-size:50px;
+    color:black;
+    font-weight:400;
+    padding-bottom:40px;
+}
+.fotter-img{
+    width:600px;
+    height:auto;
+    display:block;
+    margin: auto;
+    
+}
+.fotter-img img{
+    width:100%;
+}
